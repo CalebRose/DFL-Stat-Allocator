@@ -95,6 +95,8 @@ gaps = (7, 42, 43, 79, 80, 81, 82, 118, 119)
 pass_plays = ('Slants', 'Flood', 'Scissors', 'Play Action',
               'Screen Pass', 'Max Protect', 'Streaks')
 rush_plays = ('Blast', 'Power', 'Draw', 'Sweep', 'Option')
+offensive_penalties = ('Offense: Delay of Game', 'Offense: False Start', 'Offense: Illegal Formation', 'Offense: Holding', 'Offense: Unnecessary Roughness', 'Offense: Pass Interference')
+defensive_penalties = ('Defense: Pass Interference', 'Defense: Roughing the Passer', 'Defense: Unnecessary Roughness', 'Defense: Face Mask', 'Defense: Illegal Use of Hands', 'Defense: Holding', 'Defense: Offsides', 'Defense: Encroahment')
 
 
 def score_allocator(team, iterator, points):
@@ -207,16 +209,20 @@ def play_allocation(offense, defense, row, iterator):
                 100 * (offense['fgm'] / offense['fga']), 2)
 
     # Penalty Occurring
-    if(penalty == 'True'):
-        offense['pen'] += 1
-        if(was_accepted == 'True'):
-            offense['pen_yds'] += penalty_yards
+    if(penalty == 'True' and was_accepted == 'True'):
+        if(penalty_type in offensive_penalties):
+            offense['pen'] = offense['pen'] + 1
+            offense['pen_yds'] += abs(penalty_yards)
+        elif(penalty_type in defensive_penalties):
+            defense['pen'] = defense['pen'] + 1
+            defense['pen_yds'] += abs(penalty_yards)
+
     # Safety
     if(saf == 'True'):
         offense['saf'] += 1
 
 
-with open("D:\\Rubicon\\AutoPost\\SimFBA-Stat-Allocator\\TJ5@ATL.csv") as file:
+with open("CSV\\W3100PM\\BGP@NYC.csv") as file:
     csv_reader = reader(file)
     for row in csv_reader:
         if(iterator <= 6):
@@ -233,8 +239,7 @@ with open("D:\\Rubicon\\AutoPost\\SimFBA-Stat-Allocator\\TJ5@ATL.csv") as file:
         # Allocate Stats
         elif(iterator > 6):
             # Home Team
-            if(len(row) <= 1):
-                iterator += 1
+            if(len(row) <= 2):
                 continue
             if(row[1] == home_team['team']):
                 # Offense = Home Team; Defense = Away Team
@@ -246,8 +251,12 @@ with open("D:\\Rubicon\\AutoPost\\SimFBA-Stat-Allocator\\TJ5@ATL.csv") as file:
         iterator += 1
         # print(row)
 template = f"[CENTER][SIZE=6]{home_team['team']} (0-0) vs {away_team['team']} (0-0)[/SIZE]\n[SIZE=3]{stadium} - - {location}[/SIZE][/CENTER]\n\n[TABLE]\n[TR]\n[TH]Team[/TH]\n[TH]Q1[/TH]\n[TH]Q2[/TH]\n[TH]Q3[/TH]\n[TH]Q4[/TH]\n[TH]Final[/TH]\n[/TR]\n[TR]\n[TD]{home_team['team']}[/TD]\n[TD]{home_team['q1_score']}[/TD]\n\n[TD]{home_team['q2_score']}[/TD]\n\n[TD]{home_team['q3_score']}[/TD]\n\n[TD]{home_team['q4_score']}[/TD]\n\n[TD]{home_team['score']}[/TD]\n[/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n\n[TD]{away_team['q1_score']}[/TD]\n\n[TD]{away_team['q2_score']}[/TD]\n\n[TD]{away_team['q3_score']}[/TD]\n\n[TD]{away_team['q4_score']}[/TD]\n\n[TD]{away_team['score']}[/TD]\n[/TR]\n[/TABLE]\n[CENTER]\n[B][U][SIZE=6]Match Stats[/SIZE][/U]\n\nPassing[/B][/CENTER]\n\n[TABLE]\n[TR]\n[TH][CENTER]Team[/CENTER][/TH]\n\n[TH]CMP[/TH]\n[TH]ATT[/TH]\n[TH]CMP % [/TH]\n[TH]YDS[/TH]\n[TH]TD[/TH]\n[TH]INT[/TH]\n[TH]SK[/TH]\n[/TR]\n[TR]\n[TD]{home_team['team']}[/TD]\n[TD]{home_team['p_completions']}[/TD]\n[TD]{home_team['p_attempts']}[/TD]\n[TD]{home_team['cmp_percent']}[/TD]\n[TD]{home_team['passing']}[/TD]\n[TD]{home_team['p_td']}[/TD]\n[TD]{home_team['int']}[/TD]\n[TD]{home_team['sck']}[/TD]\n[/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n[TD]{away_team['p_completions']}[/TD]\n[TD]{away_team['p_attempts']}[/TD]\n[TD]{away_team['cmp_percent']}[/TD]\n[TD]{away_team['passing']}[/TD]\n[TD]{away_team['p_td']}[/TD]\n[TD]{away_team['int']}[/TD]\n[TD]{away_team['sck']}[/TD]\n[/TR]\n[/TABLE]\n\n[CENTER][B]Rushing[/B][/CENTER]\n\n[TABLE]\n[TR]\n[TH]Team[/TH]\n[TH]ATT[/TH]\n[TH]YDS[/TH]\n[TH]YDS/ATT[/TH]\n[TH]TD[/TH]\n[TH]FUM[/TH]\n[TH]LOST[/TH]\n[/TR]\n[TR]\n[TD]{home_team['team']}[/TD]\n[TD]{home_team['r_att']}[/TD]\n[TD]{home_team['rushing']}[/TD]\n[TD]{home_team['r_yds_att']}[/TD]\n[TD]{home_team['r_td']}[/TD]\n[TD]{home_team['fum']}[/TD]\n[TD]{home_team['lost']}[/TD][/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n[TD]{away_team['r_att']}[/TD]\n[TD]{away_team['rushing']}[/TD]\n[TD]{away_team['r_yds_att']}[/TD]\n[TD]{away_team['r_td']}[/TD]\n[TD]{away_team['fum']}[/TD]\n[TD]{away_team['lost']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Kicking[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]XPM[/TH][TH]XPA[/TH][TH]XP % [/TH][TH]FGM[/TH][TH]FGA[/TH][TH]FG % [/TH][TH]KR TD[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['xpm']}[/TD][TD]{home_team['xpa']}[/TD][TD]{home_team['xp_percent']}[/TD][TD]{home_team['fgm']}[/TD][TD]{home_team['fga']}[/TD][TD]{home_team['fg_percent']}[/TD][TD]{home_team['kr_td']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['xpm']}[/TD][TD]{away_team['xpa']}[/TD][TD]{away_team['xp_percent']}[/TD][TD]{away_team['fgm']}[/TD][TD]{away_team['fga']}[/TD][TD]{away_team['fg_percent']}[/TD][TD]{away_team['kr_td']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Punting[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]PUNTS[/TH][TH]PUNT YDS[/TH][TH]PUNT AVG[/TH][TH]RTN[/TH][TH]RTN YDS[/TH][TH]RTN AVG[/TH][TH]PR TD[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['punts']}[/TD][TD]{home_team['punt_yds']}[/TD][TD]{home_team['punt_avg']}[/TD][TD]{home_team['rtn']}[/TD][TD]{home_team['rtn_yds']}[/TD][TD]{home_team['rtn_avg']}[/TD][TD]{home_team['pr_td']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['punts']}[/TD][TD]{away_team['punt_yds']}[/TD][TD]{away_team['punt_avg']}[/TD][TD]{away_team['rtn']}[/TD][TD]{away_team['rtn_yds']}[/TD][TD]{away_team['rtn_avg']}[/TD][TD]{away_team['pr_td']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Other[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]SAF[/TH][TH]PEN[/TH][TH]PEN YDS[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['saf']}[/TD][TD]{home_team['pen']}[/TD][TD]{home_team['pen_yds']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['saf']}[/TD][TD]{away_team['pen']}[/TD][TD]{away_team['pen_yds']}[/TD][/TR][/TABLE]\n\nPlay-by-Play: "
-# print("Home: " + home_team)
-# print("Away: " + away_team)
+print("##########################")
+print("Home: ")
+print(home_team)
+print("\n##########################")
+print("Away: ")
+print(away_team)
 app = "application/json"
 key = "-MXtAHmOLG_1xDR2uLCicUnQSO711opM"
 payload = {
@@ -257,13 +266,13 @@ payload = {
 }
 params = {
     "node_id": 123,
-    "title": f"Week 3, {home_team['team']} vs {away_team['team']}",
+    "title": f"Week 3, 1:00PM : {home_team['team']} vs {away_team['team']}",
     "message": template,
     "discussion_open": True,
     "sticky": False,
     "tags": ["Week3"]
 }
-url = "https://www.simfba.com/index.php?api/forums/2021-season.171/threads/"
+# url = "https://www.simfba.com/index.php?api/forums/2021-season.171/threads/"
 url2 = "https://www.simfba.com/index.php?api/threads/"
 
 
