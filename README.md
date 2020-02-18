@@ -1,4 +1,4 @@
-# SimFBA-Stat-Allocator
+# DFL-Stat-Allocator
 Python script designed to take DFL game results from CSV and outputs the results into the SimFBA forums.
 
 ## What's DFL?
