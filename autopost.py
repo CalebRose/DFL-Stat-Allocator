@@ -9,6 +9,7 @@ from csv import DictReader
 home_team = {
     "team": "",
     "score": 0,
+    "record": "",
     "passing": 0,
     "p_attempts": 0,
     "p_completions": 0,
@@ -49,6 +50,7 @@ home_team = {
 away_team = {
     "team": "",
     "score": 0,
+    "record": "",
     "passing": 0,
     "p_attempts": 0,
     "p_completions": 0,
@@ -95,8 +97,10 @@ gaps = (7, 42, 43, 79, 80, 81, 82, 118, 119)
 pass_plays = ('Slants', 'Flood', 'Scissors', 'Play Action',
               'Screen Pass', 'Max Protect', 'Streaks')
 rush_plays = ('Blast', 'Power', 'Draw', 'Sweep', 'Option')
-offensive_penalties = ('Offense: Delay of Game', 'Offense: False Start', 'Offense: Illegal Formation', 'Offense: Holding', 'Offense: Unnecessary Roughness', 'Offense: Pass Interference')
-defensive_penalties = ('Defense: Pass Interference', 'Defense: Roughing the Passer', 'Defense: Unnecessary Roughness', 'Defense: Face Mask', 'Defense: Illegal Use of Hands', 'Defense: Holding', 'Defense: Offsides', 'Defense: Encroahment')
+offensive_penalties = ('Offense: Delay of Game', 'Offense: False Start', 'Offense: Illegal Formation',
+                       'Offense: Holding', 'Offense: Unnecessary Roughness', 'Offense: Pass Interference')
+defensive_penalties = ('Defense: Pass Interference', 'Defense: Roughing the Passer', 'Defense: Unnecessary Roughness',
+                       'Defense: Face Mask', 'Defense: Illegal Use of Hands', 'Defense: Holding', 'Defense: Offsides', 'Defense: Encroachment')
 
 
 def score_allocator(team, iterator, points):
@@ -148,8 +152,9 @@ def play_allocation(offense, defense, row, iterator):
             offense['p_attempts'] += 1
         if(inter == 'True'):
             offense['int'] += 1
-        offense['cmp_percent'] = round(100 * (
-            offense['p_completions'] / offense['p_attempts']), 2)
+        if(offense['p_attempts'] != 0):
+            offense['cmp_percent'] = round(100 * (
+                offense['p_completions'] / offense['p_attempts']), 2)
     # Rush Play
     elif(play in rush_plays):
         rush_play = True
@@ -222,16 +227,18 @@ def play_allocation(offense, defense, row, iterator):
         offense['saf'] += 1
 
 
-with open("CSV\\W3100PM\\BGP@NYC.csv") as file:
+with open("SimFBA-Stat-Allocator\\W4100PM\\PP@FAN.csv") as file:
     csv_reader = reader(file)
     for row in csv_reader:
         if(iterator <= 6):
             if(row[0] == 'Home Team:'):
                 home_team['team'] = row[1]
                 home_team['score'] = row[2]
+                home_team['record'] = row[3]
             elif(row[0] == 'Away Team:'):
                 away_team['team'] = row[1]
                 away_team['score'] = row[2]
+                away_team['record'] = row[3]
             elif(row[0] == 'Stadium:'):
                 stadium = row[1]
                 location = row[2]
@@ -250,7 +257,7 @@ with open("CSV\\W3100PM\\BGP@NYC.csv") as file:
                 play_allocation(away_team, home_team, row, iterator)
         iterator += 1
         # print(row)
-template = f"[CENTER][SIZE=6]{home_team['team']} (0-0) vs {away_team['team']} (0-0)[/SIZE]\n[SIZE=3]{stadium} - - {location}[/SIZE][/CENTER]\n\n[TABLE]\n[TR]\n[TH]Team[/TH]\n[TH]Q1[/TH]\n[TH]Q2[/TH]\n[TH]Q3[/TH]\n[TH]Q4[/TH]\n[TH]Final[/TH]\n[/TR]\n[TR]\n[TD]{home_team['team']}[/TD]\n[TD]{home_team['q1_score']}[/TD]\n\n[TD]{home_team['q2_score']}[/TD]\n\n[TD]{home_team['q3_score']}[/TD]\n\n[TD]{home_team['q4_score']}[/TD]\n\n[TD]{home_team['score']}[/TD]\n[/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n\n[TD]{away_team['q1_score']}[/TD]\n\n[TD]{away_team['q2_score']}[/TD]\n\n[TD]{away_team['q3_score']}[/TD]\n\n[TD]{away_team['q4_score']}[/TD]\n\n[TD]{away_team['score']}[/TD]\n[/TR]\n[/TABLE]\n[CENTER]\n[B][U][SIZE=6]Match Stats[/SIZE][/U]\n\nPassing[/B][/CENTER]\n\n[TABLE]\n[TR]\n[TH][CENTER]Team[/CENTER][/TH]\n\n[TH]CMP[/TH]\n[TH]ATT[/TH]\n[TH]CMP % [/TH]\n[TH]YDS[/TH]\n[TH]TD[/TH]\n[TH]INT[/TH]\n[TH]SK[/TH]\n[/TR]\n[TR]\n[TD]{home_team['team']}[/TD]\n[TD]{home_team['p_completions']}[/TD]\n[TD]{home_team['p_attempts']}[/TD]\n[TD]{home_team['cmp_percent']}[/TD]\n[TD]{home_team['passing']}[/TD]\n[TD]{home_team['p_td']}[/TD]\n[TD]{home_team['int']}[/TD]\n[TD]{home_team['sck']}[/TD]\n[/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n[TD]{away_team['p_completions']}[/TD]\n[TD]{away_team['p_attempts']}[/TD]\n[TD]{away_team['cmp_percent']}[/TD]\n[TD]{away_team['passing']}[/TD]\n[TD]{away_team['p_td']}[/TD]\n[TD]{away_team['int']}[/TD]\n[TD]{away_team['sck']}[/TD]\n[/TR]\n[/TABLE]\n\n[CENTER][B]Rushing[/B][/CENTER]\n\n[TABLE]\n[TR]\n[TH]Team[/TH]\n[TH]ATT[/TH]\n[TH]YDS[/TH]\n[TH]YDS/ATT[/TH]\n[TH]TD[/TH]\n[TH]FUM[/TH]\n[TH]LOST[/TH]\n[/TR]\n[TR]\n[TD]{home_team['team']}[/TD]\n[TD]{home_team['r_att']}[/TD]\n[TD]{home_team['rushing']}[/TD]\n[TD]{home_team['r_yds_att']}[/TD]\n[TD]{home_team['r_td']}[/TD]\n[TD]{home_team['fum']}[/TD]\n[TD]{home_team['lost']}[/TD][/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n[TD]{away_team['r_att']}[/TD]\n[TD]{away_team['rushing']}[/TD]\n[TD]{away_team['r_yds_att']}[/TD]\n[TD]{away_team['r_td']}[/TD]\n[TD]{away_team['fum']}[/TD]\n[TD]{away_team['lost']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Kicking[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]XPM[/TH][TH]XPA[/TH][TH]XP % [/TH][TH]FGM[/TH][TH]FGA[/TH][TH]FG % [/TH][TH]KR TD[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['xpm']}[/TD][TD]{home_team['xpa']}[/TD][TD]{home_team['xp_percent']}[/TD][TD]{home_team['fgm']}[/TD][TD]{home_team['fga']}[/TD][TD]{home_team['fg_percent']}[/TD][TD]{home_team['kr_td']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['xpm']}[/TD][TD]{away_team['xpa']}[/TD][TD]{away_team['xp_percent']}[/TD][TD]{away_team['fgm']}[/TD][TD]{away_team['fga']}[/TD][TD]{away_team['fg_percent']}[/TD][TD]{away_team['kr_td']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Punting[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]PUNTS[/TH][TH]PUNT YDS[/TH][TH]PUNT AVG[/TH][TH]RTN[/TH][TH]RTN YDS[/TH][TH]RTN AVG[/TH][TH]PR TD[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['punts']}[/TD][TD]{home_team['punt_yds']}[/TD][TD]{home_team['punt_avg']}[/TD][TD]{home_team['rtn']}[/TD][TD]{home_team['rtn_yds']}[/TD][TD]{home_team['rtn_avg']}[/TD][TD]{home_team['pr_td']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['punts']}[/TD][TD]{away_team['punt_yds']}[/TD][TD]{away_team['punt_avg']}[/TD][TD]{away_team['rtn']}[/TD][TD]{away_team['rtn_yds']}[/TD][TD]{away_team['rtn_avg']}[/TD][TD]{away_team['pr_td']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Other[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]SAF[/TH][TH]PEN[/TH][TH]PEN YDS[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['saf']}[/TD][TD]{home_team['pen']}[/TD][TD]{home_team['pen_yds']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['saf']}[/TD][TD]{away_team['pen']}[/TD][TD]{away_team['pen_yds']}[/TD][/TR][/TABLE]\n\nPlay-by-Play: "
+template = f"[CENTER][SIZE=6]{home_team['team']} {home_team['record']} vs {away_team['team']} {away_team['record']} [/SIZE]\n[SIZE=3]{stadium} - - {location}[/SIZE][/CENTER]\n\n[TABLE]\n[TR]\n[TH]Team[/TH]\n[TH]Q1[/TH]\n[TH]Q2[/TH]\n[TH]Q3[/TH]\n[TH]Q4[/TH]\n[TH]Final[/TH]\n[/TR]\n[TR][TD]{home_team['team']}[/TD][TD]{home_team['q1_score']}[/TD]\n\n[TD]{home_team['q2_score']}[/TD]\n\n[TD]{home_team['q3_score']}[/TD]\n\n[TD]{home_team['q4_score']}[/TD]\n\n[TD]{home_team['score']}[/TD]\n[/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n\n[TD]{away_team['q1_score']}[/TD]\n\n[TD]{away_team['q2_score']}[/TD]\n\n[TD]{away_team['q3_score']}[/TD]\n\n[TD]{away_team['q4_score']}[/TD]\n\n[TD]{away_team['score']}[/TD]\n[/TR]\n[/TABLE]\n[CENTER]\n[B][U][SIZE=6]Match Stats[/SIZE][/U]\n\nPassing[/B][/CENTER]\n\n[TABLE]\n[TR]\n[TH][CENTER]Team[/CENTER][/TH]\n\n[TH]CMP[/TH]\n[TH]ATT[/TH]\n[TH]CMP % [/TH]\n[TH]YDS[/TH]\n[TH]TD[/TH]\n[TH]INT[/TH]\n[TH]SK[/TH]\n[/TR]\n[TR]\n[TD]{home_team['team']}[/TD]\n[TD]{home_team['p_completions']}[/TD]\n[TD]{home_team['p_attempts']}[/TD]\n[TD]{home_team['cmp_percent']}[/TD]\n[TD]{home_team['passing']}[/TD]\n[TD]{home_team['p_td']}[/TD]\n[TD]{home_team['int']}[/TD]\n[TD]{home_team['sck']}[/TD]\n[/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n[TD]{away_team['p_completions']}[/TD]\n[TD]{away_team['p_attempts']}[/TD]\n[TD]{away_team['cmp_percent']}[/TD]\n[TD]{away_team['passing']}[/TD]\n[TD]{away_team['p_td']}[/TD]\n[TD]{away_team['int']}[/TD]\n[TD]{away_team['sck']}[/TD]\n[/TR]\n[/TABLE]\n\n[CENTER][B]Rushing[/B][/CENTER]\n\n[TABLE]\n[TR]\n[TH]Team[/TH]\n[TH]ATT[/TH]\n[TH]YDS[/TH]\n[TH]YDS/ATT[/TH]\n[TH]TD[/TH]\n[TH]FUM[/TH]\n[TH]LOST[/TH]\n[/TR]\n[TR]\n[TD]{home_team['team']}[/TD]\n[TD]{home_team['r_att']}[/TD]\n[TD]{home_team['rushing']}[/TD]\n[TD]{home_team['r_yds_att']}[/TD]\n[TD]{home_team['r_td']}[/TD]\n[TD]{home_team['fum']}[/TD]\n[TD]{home_team['lost']}[/TD][/TR]\n[TR]\n[TD]{away_team['team']}[/TD]\n[TD]{away_team['r_att']}[/TD]\n[TD]{away_team['rushing']}[/TD]\n[TD]{away_team['r_yds_att']}[/TD]\n[TD]{away_team['r_td']}[/TD]\n[TD]{away_team['fum']}[/TD]\n[TD]{away_team['lost']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Kicking[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]XPM[/TH][TH]XPA[/TH][TH]XP % [/TH][TH]FGM[/TH][TH]FGA[/TH][TH]FG % [/TH][TH]KR TD[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['xpm']}[/TD][TD]{home_team['xpa']}[/TD][TD]{home_team['xp_percent']}[/TD][TD]{home_team['fgm']}[/TD][TD]{home_team['fga']}[/TD][TD]{home_team['fg_percent']}[/TD][TD]{home_team['kr_td']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['xpm']}[/TD][TD]{away_team['xpa']}[/TD][TD]{away_team['xp_percent']}[/TD][TD]{away_team['fgm']}[/TD][TD]{away_team['fga']}[/TD][TD]{away_team['fg_percent']}[/TD][TD]{away_team['kr_td']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Punting[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]PUNTS[/TH][TH]PUNT YDS[/TH][TH]PUNT AVG[/TH][TH]RTN[/TH][TH]RTN YDS[/TH][TH]RTN AVG[/TH][TH]PR TD[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['punts']}[/TD][TD]{home_team['punt_yds']}[/TD][TD]{home_team['punt_avg']}[/TD][TD]{home_team['rtn']}[/TD][TD]{home_team['rtn_yds']}[/TD][TD]{home_team['rtn_avg']}[/TD][TD]{home_team['pr_td']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['punts']}[/TD][TD]{away_team['punt_yds']}[/TD][TD]{away_team['punt_avg']}[/TD][TD]{away_team['rtn']}[/TD][TD]{away_team['rtn_yds']}[/TD][TD]{away_team['rtn_avg']}[/TD][TD]{away_team['pr_td']}[/TD][/TR][/TABLE]\n\n[CENTER][B]Other[/B][/CENTER]\n\n[TABLE][TR][TH]Team[/TH][TH]SAF[/TH][TH]PEN[/TH][TH]PEN YDS[/TH][/TR][TR][TD]{home_team['team']}[/TD][TD]{home_team['saf']}[/TD][TD]{home_team['pen']}[/TD][TD]{home_team['pen_yds']}[/TD][/TR][TR][TD]{away_team['team']}[/TD][TD]{away_team['saf']}[/TD][TD]{away_team['pen']}[/TD][TD]{away_team['pen_yds']}[/TD][/TR][/TABLE]\n\nPlay-by-Play: "
 print("##########################")
 print("Home: ")
 print(home_team)
@@ -266,7 +273,7 @@ payload = {
 }
 params = {
     "node_id": 123,
-    "title": f"Week 3, 1:00PM : {home_team['team']} vs {away_team['team']}",
+    "title": f"Week 3, 8:30PM : {home_team['team']} vs {away_team['team']}",
     "message": template,
     "discussion_open": True,
     "sticky": False,
@@ -281,4 +288,4 @@ res = requests.post(url2, headers=payload, params=params)
 
 print("RES SENT")
 print(res.json())
-print("============")
+print("============ Game Posted ============")
