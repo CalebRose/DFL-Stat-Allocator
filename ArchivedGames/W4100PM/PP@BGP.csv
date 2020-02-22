@@ -1,0 +1,155 @@
+Home Team:,BGP,34,0-3
+Away Team:,PP,7,0-3
+ 
+Stadium:,The Bird Cage,Baltimore MD
+ 
+Play:,Ball:,Offense:,Defense:,Kickoff:,Down:,Distance:,LOS:,Passing Yards:,Incomplete:,Rushing Yards:,Kicking Yards:,Punting Yards:,Return Yards:,Sack:,FG:,TD:,Safety:,Interception:,Fumble:,Turnover:,Minor Injury:,Major Injury:,Injured Position:,Penalty:,Penalty Type:,Penalty Yards:,Was Accepted?:
+First Quarter:
+1,PP,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,BGP,Power,Cover 2,False,1,10,25,0,False,7,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,BGP,Blast,Cover 3,False,2,3,32,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+4,BGP,Sweep,Cover 3,False,3,1,34,0,False,8,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+5,BGP,Play Action,Cover 3,False,1,10,42,32,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+6,BGP,Power,Cover 3,False,1,10,74,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,BGP,Blast,Cover 3,False,2,10,74,0,False,7,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,BGP,Power,Cover 3,False,3,3,81,0,False,9,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,BGP,Blast,Cover 3,False,1,10,90,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,BGP,Draw,Cover 2,False,2,8,92,0,False,-1,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+11,BGP,Draw,Cover 3,False,3,9,91,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Holding,5,True
+12,BGP,Blast,Cover 3,False,1,10,95,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,BGP,Flood,Cover 3,False,2,10,95,5,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+14,BGP,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+15,BGP,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+16,PP,Scissors,Cover 1 Mike Dog,False,1,10,25,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+17,PP,Play Action,Cover 1 Mike Dog,False,2,10,25,12,False,0,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+18,PP,Draw,Cover 2,False,1,10,37,0,False,0,0,0,0,False,False,False,False,False,True,True,False,False,,False,,0,False
+19,BGP,Slants,Cover 3,False,1,10,63,8,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,BGP,Power,Cover 3,False,2,2,71,0,False,6,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,BGP,Slants,Cover 2,False,1,10,77,11,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,BGP,Blast,Cover 4,False,1,10,88,0,False,1,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,BGP,Blast,Cover 3,False,2,9,89,0,False,5,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+24,BGP,Blast,Cover 3,False,3,4,94,0,False,6,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+25,BGP,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+26,BGP,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+27,PP,Slants,Cover 2,False,1,10,25,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,PP,Option,Cover 0 Bullets,False,2,3,32,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,PP,Draw,Cover 2,False,3,3,32,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+30,PP,Punt,,False,4,3,32,0,False,0,0,55,22,False,False,False,False,False,False,False,False,False,,False,,0,False
+31,BGP,Slants,Cover 2,False,1,10,35,11,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,BGP,Power,Cover 2,False,1,10,46,0,False,7,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,BGP,Power,Cover 3,False,2,3,53,0,False,5,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,BGP,Power,Cover 2,False,1,10,58,0,False,5,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,BGP,Blast,Cover 3,False,2,5,63,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+ 
+Second Quarter:
+1,BGP,Blast,Cover 3,False,3,3,65,0,False,0,0,0,0,False,False,False,False,False,True,True,False,False,,False,,0,False
+2,PP,Draw,Cover 2,False,1,10,35,0,False,0,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+3,PP,Streaks,Cover 2,False,2,10,35,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Holding,-10,True
+4,PP,Slants,Cover 2,False,2,20,25,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Roughing the Passer,15,True
+5,PP,Slants,Cover 1 Mike Dog,False,1,10,12,15,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+6,PP,Slants,Cover 3,False,1,10,27,5,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,PP,Draw,Cover 3,False,2,5,32,0,False,14,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Unnecessary Roughness,-15,True
+8,PP,Flood,Cover 2,False,3,20,17,9,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,PP,Punt,,False,4,11,26,0,False,0,0,50,20,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,BGP,Play Action,Cover 2,False,1,10,44,13,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+11,BGP,Power,Cover 3,False,1,10,57,0,False,-2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,BGP,Slants,Cover 2,False,2,12,55,3,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,BGP,Screen Pass,Cover 3,False,3,9,58,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,BGP,Punt,,False,4,9,58,0,False,0,0,42,20,False,False,False,False,False,False,False,False,False,,False,,0,False
+15,PP,Screen Pass,Cover 2,False,1,10,20,13,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Delay of Game,-5,True
+16,PP,Play Action,Cover 2,False,1,15,15,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Pass Interference,-10,True
+17,PP,Draw,Cover 2,False,2,25,5,0,False,-1,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+18,PP,Streaks,Cover 3,False,3,26,4,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,PP,Punt,,False,4,26,4,0,False,0,0,60,9,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,BGP,Power,Cover 1 Mike Dog,False,1,10,45,0,False,7,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,BGP,Slants,Cover 3,False,2,3,52,8,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,BGP,Power,Cover 3,False,1,10,60,0,False,7,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,BGP,Power,Cover 3,False,2,3,67,0,False,12,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+24,BGP,Power,Cover 2,False,1,10,79,0,False,9,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,BGP,Streaks,Cover 4,False,2,1,88,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+26,BGP,Power,Cover 2,False,3,1,88,0,False,10,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+27,BGP,Blast,Cover 3,False,1,10,98,0,False,2,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+28,BGP,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+29,BGP,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+30,PP,Streaks,Cover 2,False,1,10,25,23,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+31,PP,Flood,Cover 2,False,1,10,48,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,PP,Play Action,Cover 2,False,2,10,48,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,PP,Streaks,Cover 0 Bullets,False,3,10,48,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,PP,Punt,,False,4,10,48,0,False,0,0,52,20,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,BGP,Power,Cover 2,False,1,10,20,0,False,14,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+ 
+Halftime:
+ 
+Third Quarter:
+1,BGP,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,PP,Slants,Cover 3,False,1,10,25,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,PP,Draw,Cover 2,False,2,3,32,0,False,7,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+4,PP,Power,Cover 1 Mike Dog,False,1,10,39,0,False,-4,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+5,PP,Slants,Cover 1 Mike Dog,False,2,14,35,-4,True,0,0,0,0,False,False,False,False,True,False,True,False,False,,False,,0,False
+6,BGP,Blast,Cover 3,False,1,10,69,0,False,4,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,BGP,Screen Pass,Cover 3,False,2,6,73,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,BGP,Blast,Cover 2,False,3,6,73,0,False,9,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,BGP,Power,Cover 2,False,1,10,82,0,False,13,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+10,BGP,Draw,Cover 3,False,1,10,95,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+11,BGP,Sweep,Cover 2,False,2,8,97,0,False,8,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: False Start,-5,True
+12,BGP,Sweep,Cover 3,False,2,13,92,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,BGP,Blast,Cover 2,False,3,13,92,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,BGP,Field Goal,,False,4,10,95,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+15,BGP,Kickoff,,True,0,0,0,0,False,0,60,0,17,False,False,False,False,False,False,False,False,False,,False,,0,False
+16,PP,Slants,Cover 2,False,1,10,22,11,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+17,PP,Sweep,Cover 2,False,1,10,33,0,False,16,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+18,PP,Power,Cover 3,False,1,10,49,0,False,-1,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,PP,Play Action,Cover 3,False,2,11,48,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,PP,Draw,Cover 3,False,3,11,48,0,False,4,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,PP,Punt,,False,4,7,52,0,False,0,0,45,11,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,BGP,Slants,Cover 3,False,1,10,14,16,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,BGP,Flood,Cover 3,False,1,10,30,16,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Pass Interference,15,False
+24,BGP,Blast,Cover 3,False,1,10,46,0,False,5,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,BGP,Draw,Cover 1 Mike Dog,False,2,5,51,0,False,10,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+26,BGP,Power,Cover 3,False,1,10,61,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+27,BGP,Flood,Cover 3,False,2,10,61,31,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,BGP,Blast,Cover 2,False,1,10,92,0,False,1,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,BGP,Sweep,Cover 2,False,2,9,93,0,False,7,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+30,BGP,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+31,BGP,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,PP,Draw,Cover 1 Mike Dog,False,1,10,25,0,False,18,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,PP,Blast,Cover 3,False,1,10,43,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,PP,Draw,Cover 1 Mike Dog,False,2,10,43,0,False,18,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,PP,Power,Cover 1 Mike Dog,False,1,10,61,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+ 
+Fourth Quarter:
+1,PP,Slants,Cover 2,False,2,10,61,15,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,PP,Scissors,Cover 1 Mike Dog,False,1,10,76,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,PP,Power,Cover 1 Mike Dog,False,2,10,76,0,False,6,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+4,PP,Scissors,Cover 3,False,3,4,82,9,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+5,PP,Slants,Cover 3,False,1,10,91,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+6,PP,Play Action,Cover 3,False,2,3,98,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Offsides,5,True
+7,PP,Power,Cover 2,False,1,10,103,-3,False,3,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+8,PP,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+9,PP,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,BGP,Sweep,Cover 4,False,1,10,25,0,False,12,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+11,BGP,Blast,Cover 3,False,1,10,37,0,False,5,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,BGP,Power,Cover 1 Mike Dog,False,2,5,42,0,False,15,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,BGP,Flood,Cover 2,False,1,10,57,11,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,BGP,Blast,Cover 3,False,1,10,68,0,False,7,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+15,BGP,Blast,Cover 2,False,2,3,75,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+16,BGP,Slants,Cover 4,False,1,10,78,-4,False,0,0,0,0,True,False,False,False,False,False,False,False,False,,False,,0,False
+17,BGP,Power,Cover 2,False,2,14,74,0,False,15,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+18,BGP,Power,Cover 3,False,1,10,89,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Unnecessary Roughness,-15,True
+19,BGP,Sweep,Cover 3,False,2,25,74,0,False,17,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,BGP,Streaks,Cover 3,False,3,8,91,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,BGP,Field Goal,,False,4,8,91,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+22,BGP,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,PP,Scissors,Cover 0 Bullets,False,1,10,25,-1,False,0,0,0,0,True,False,False,False,False,False,False,False,False,,False,,0,False
+24,PP,Scissors,Cover 2,False,2,11,24,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,PP,Scissors,Cover 3,False,3,11,24,14,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+26,PP,Play Action,Cover 3,False,1,10,38,14,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Pass Interference,-10,True
+27,PP,Option,Cover 3,False,2,20,28,0,False,16,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,PP,Draw,Cover 0 Bullets,False,3,4,44,0,False,9,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+29,PP,Play Action,Cover 2,False,1,10,53,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Holding,-10,True
+30,PP,Flood,Cover 3,False,1,20,43,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+31,PP,Slants,Cover 2,False,2,13,50,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,PP,Power,Cover 3,False,3,3,60,0,False,7,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,PP,Draw,Cover 3,False,1,10,67,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,PP,Slants,Cover 2,False,2,10,67,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,PP,Flood,Cover 3,False,3,10,67,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
