@@ -144,7 +144,7 @@ def play_allocation(offense, defense, row, iterator):
     if(play in pass_plays):
         pass_play = True
         offense['passing'] += p_yds
-        if(incomplete == 'False' or incomplete == 'FALSE'):
+        if((incomplete == 'False' or incomplete == 'FALSE') and (sack == 'False' or sack == 'FALSE')):
             offense['p_completions'] += 1
         if(sack == 'True' or sack == 'TRUE'):
             offense['sck'] += 1
@@ -226,7 +226,7 @@ def play_allocation(offense, defense, row, iterator):
         offense['saf'] += 1
 
 
-with open("SimFBA-Stat-Allocator\\W4100PM\\PP@FAN.csv") as file:
+with open("SimFBA-Stat-Allocator\\W4100PM\\FAN@CND.csv") as file:
     csv_reader = reader(file)
     for row in csv_reader:
         if(iterator <= 6):
@@ -274,10 +274,9 @@ payload = {
 }
 params = {
     "node_id": 123,
-    "title": f"Week 3, 8:30PM : {home_team['team']} vs {away_team['team']}",
+    "title": f"Week 1, 1:00PM : {home_team['team']} vs {away_team['team']}",
     "message": template,
     "discussion_open": True,
-    "sticky": False,
     "tags": ["Week3"]
 }
 url = "https://www.simfba.com/index.php?api/forums/2021-season.171/threads/"
@@ -285,7 +284,7 @@ url2 = "https://www.simfba.com/index.php?api/threads/"
 
 
 # res = requests.get(url2, headers=payload, params=params)
-# res = requests.post(url2, headers=payload, params=params)
+res = requests.post(url2, headers=payload, params=params)
 
 print("RES SENT")
 print(res.json())
