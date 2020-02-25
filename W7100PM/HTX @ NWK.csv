@@ -1,0 +1,155 @@
+Home Team:,NWK,44,3-3,Newark,Rollers
+Away Team:,HTX,38,3-3,Houston,Candy Paint Slabs
+ 
+Stadium:,The Stairwell,Newark NJ
+ 
+Play:,Ball:,Offense:,Defense:,Kickoff:,Down:,Distance:,LOS:,Passing Yards:,Incomplete:,Rushing Yards:,Kicking Yards:,Punting Yards:,Return Yards:,Sack:,FG:,TD:,Safety:,Interception:,Fumble:,Turnover:,Minor Injury:,Major Injury:,Injured Position:,Penalty:,Penalty Type:,Penalty Yards:,Was Accepted?:
+First Quarter:
+1,HTX,Kickoff,,True,0,0,0,0,False,0,55,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,NWK,Streaks,Cover 2,False,1,10,35,20,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,NWK,Play Action,Cover 3,False,1,10,55,26,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+4,NWK,Play Action,Cover 2,False,1,10,81,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+5,NWK,Slants,Cover 2,False,2,10,81,4,False,0,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+6,NWK,Screen Pass,Cover 3,False,3,6,85,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,NWK,Slants,Cover 3,False,1,10,92,8,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+8,NWK,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,NWK,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,HTX,Draw,Cover 3,False,1,10,25,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+11,HTX,Screen Pass,Cover 3,False,2,8,27,38,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,HTX,Draw,Cover 3,False,1,10,65,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,HTX,Flood,Cover 2,False,2,8,67,8,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,HTX,Power,Cover 3,False,1,10,75,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+15,HTX,Draw,Cover 2,False,2,7,78,0,False,16,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+16,HTX,Slants,Cover 1 Mike Dog,False,1,10,94,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+17,HTX,Slants,Cover 3,False,2,10,94,6,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+18,HTX,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+19,HTX,Kickoff,,True,0,0,0,0,False,0,55,0,16,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,NWK,Flood,Cover 1 Mike Dog,False,1,10,26,11,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,NWK,Slants,Cover 3,False,1,10,37,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,NWK,Screen Pass,Cover 3,False,1,10,47,8,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,NWK,Streaks,Cover 2,False,2,2,55,32,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+24,NWK,Option,Cover 3,False,1,10,87,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,NWK,Option,Cover 2,False,2,10,87,0,False,13,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+26,NWK,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+27,NWK,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,HTX,Screen Pass,Cover 3,False,1,10,25,13,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,HTX,Slants,Cover 3,False,1,10,38,6,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+30,HTX,Power,Cover 1 Mike Dog,False,2,4,44,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+31,HTX,Slants,Cover 2,False,3,4,44,8,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,HTX,Play Action,Cover 2,False,1,10,52,13,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,HTX,Screen Pass,Cover 3,False,1,10,65,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,HTX,Slants,Cover 2,False,2,10,65,4,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,HTX,Streaks,Cover 3,False,3,6,69,17,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+ 
+Second Quarter:
+1,HTX,Power,Cover 3,False,1,10,86,0,False,6,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,HTX,Draw,Cover 2,False,2,4,92,0,False,10,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: False Start,-5,True
+3,HTX,Screen Pass,Cover 3,False,2,9,87,-1,False,0,0,0,0,True,False,False,False,False,False,False,False,False,,False,,0,False
+4,HTX,Slants,Cover 2,False,3,10,86,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+5,HTX,Flood,Cover 3,False,1,10,96,4,False,0,0,0,0,False,False,True,False,False,False,False,True,False,,False,,0,False
+6,HTX,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+7,HTX,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,NWK,Screen Pass,Cover 2,False,1,10,25,15,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,NWK,Slants,Cover 2,False,1,10,40,5,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,NWK,Screen Pass,Cover 2,False,2,5,45,14,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+11,NWK,Scissors,Cover 3,False,1,10,59,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,NWK,Option,Cover 3,False,2,3,66,0,False,8,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,NWK,Flood,Cover 1 Mike Dog,False,1,10,74,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,NWK,Play Action,Cover 3,False,2,10,74,17,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+15,NWK,Option,Cover 3,False,1,10,91,0,False,9,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+16,NWK,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+17,NWK,Kickoff,,True,0,0,0,0,False,0,60,0,65,False,False,False,False,False,False,False,False,False,,False,,0,False
+18,HTX,Slants,Cover 2,False,1,10,70,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,HTX,Flood,Cover 1 Mike Dog,False,1,10,80,-2,False,0,0,0,0,True,False,False,False,False,False,False,False,False,,False,,0,False
+20,HTX,Screen Pass,Cover 2,False,2,12,78,-4,True,0,0,0,0,False,False,False,False,True,False,True,False,False,,False,,0,False
+21,NWK,Sweep,Cover 3,False,1,10,26,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,NWK,Sweep,Cover 3,False,2,10,26,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,NWK,Streaks,Cover 2,False,3,10,26,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+24,NWK,Punt,,False,4,10,26,0,False,0,0,45,5,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,HTX,Play Action,Cover 2,False,1,10,34,35,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+26,HTX,Blast,Cover 3,False,1,10,69,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+27,HTX,Flood,Cover 3,False,2,8,71,11,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,HTX,Screen Pass,Cover 3,False,1,10,82,16,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,HTX,Power,Cover 2,False,1,10,98,0,False,2,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+30,HTX,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+31,HTX,Kickoff,,True,0,0,0,0,False,0,55,0,12,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,NWK,Power,Cover 2,False,1,10,22,0,False,5,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,NWK,Play Action,Cover 3,False,2,5,27,15,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,NWK,Slants,Cover 3,False,1,10,42,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,NWK,Play Action,Cover 3,False,2,3,49,15,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+ 
+Halftime:
+ 
+Third Quarter:
+1,NWK,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,HTX,Draw,Cover 3,False,1,10,25,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,HTX,Play Action,Cover 2,False,2,10,25,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+4,HTX,Screen Pass,Cover 2,False,3,10,25,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+5,HTX,Punt,,False,4,10,25,0,False,0,0,45,43,False,False,False,False,False,False,False,False,False,,False,,0,False
+6,NWK,Streaks,Cover 3,False,1,10,73,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,NWK,Sweep,Cover 1 Mike Dog,False,2,10,73,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,NWK,Slants,Cover 3,False,3,10,73,20,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,NWK,Option,Cover 3,False,1,10,93,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,NWK,Slants,Cover 3,False,2,10,93,2,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+11,NWK,Option,Cover 2,False,3,8,95,0,False,5,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+12,NWK,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+13,NWK,Kickoff,,True,0,0,0,0,False,0,45,0,11,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,HTX,Screen Pass,Cover 3,False,1,10,31,12,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+15,HTX,Power,Cover 1 Mike Dog,False,1,10,43,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: False Start,-5,True
+16,HTX,Draw,Cover 2,False,1,15,38,0,False,19,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+17,HTX,Draw,Cover 3,False,1,10,57,0,False,3,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+18,HTX,Flood,Cover 3,False,2,7,60,6,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,HTX,Power,Cover 2,False,3,1,66,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,HTX,Field Goal,,False,4,1,66,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+21,HTX,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,NWK,Streaks,Cover 3,False,1,10,25,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Face Mask,15,True
+23,NWK,Option,Cover 2,False,1,10,12,0,False,14,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+24,NWK,Option,Cover 3,False,1,10,26,0,False,9,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,NWK,Sweep,Cover 2,False,2,1,35,0,False,45,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+26,NWK,Flood,Cover 2,False,1,10,80,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+27,NWK,Sweep,Cover 2,False,2,10,80,0,False,0,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+28,NWK,Sweep,Cover 2,False,3,10,80,0,False,17,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,NWK,Scissors,Cover 3,False,1,10,97,3,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+30,NWK,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+31,NWK,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,HTX,Draw,Cover 2,False,1,10,25,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,HTX,Blast,Cover 3,False,2,10,25,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,HTX,Screen Pass,Cover 2,False,3,10,25,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,HTX,Punt,,False,4,10,25,0,False,0,0,45,20,False,False,False,False,False,False,False,False,False,,False,,0,False
+ 
+Fourth Quarter:
+1,NWK,Streaks,Cover 1 Mike Dog,False,1,10,50,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,NWK,Screen Pass,Cover 3,False,2,10,50,18,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,NWK,Flood,Cover 3,False,1,10,68,-5,False,0,0,0,0,True,False,False,False,False,False,False,False,False,,False,,0,False
+4,NWK,Draw,Cover 1 Mike Dog,False,2,15,63,0,False,14,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+5,NWK,Flood,Cover 3,False,3,1,77,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Holding,-10,False
+6,NWK,Field Goal,,False,4,1,77,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+7,NWK,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,HTX,Screen Pass,Cover 2,False,1,10,25,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,HTX,Play Action,Cover 3,False,1,10,35,12,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Unnecessary Roughness,15,True
+10,HTX,Slants,Cover 2,False,1,10,50,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+11,HTX,Play Action,Cover 3,False,2,3,57,20,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,HTX,Power,Cover 2,False,1,10,77,0,False,14,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,HTX,Power,Cover 2,False,1,10,91,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,HTX,Flood,Cover 2,False,2,10,91,9,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+15,HTX,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+16,HTX,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+17,NWK,Option,Cover 2,False,1,10,25,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+18,NWK,Power,Cover 3,False,2,10,25,0,False,8,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,NWK,Screen Pass,Cover 2,False,3,2,33,9,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,NWK,Play Action,Cover 3,False,1,10,42,47,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,NWK,Screen Pass,Cover 3,False,1,10,89,11,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+22,NWK,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+23,NWK,Kickoff,,True,0,0,0,0,False,0,60,0,18,False,False,False,False,False,False,False,False,False,,False,,0,False
+24,HTX,Power,Cover 2,False,1,10,23,0,False,9,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,HTX,Play Action,Cover 1 Mike Dog,False,2,1,32,16,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Illegal Use of Hands,5,False
+26,HTX,Slants,Cover 2,False,1,10,48,14,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+27,HTX,Play Action,Cover 2,False,1,10,62,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,HTX,Play Action,Cover 3,False,2,10,62,16,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,HTX,Slants,Cover 2,False,1,10,78,5,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+30,HTX,Flood,Cover 1 Mike Dog,False,2,5,83,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+31,HTX,Blast,Cover 3,False,3,5,83,0,False,15,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,HTX,Streaks,Cover 2,False,1,10,98,2,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+33,HTX,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+34,HTX,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,NWK,Option,Cover 2,False,1,10,25,0,False,13,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
