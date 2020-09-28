@@ -1,0 +1,156 @@
+Home Team:,NYC,30,5-4,New York,Dwarfs
+Away Team:,BA,26,8-1,Bay Area,Golden Ospreys
+ 
+Stadium:,Ironforge Arena,New York City NY
+ 
+Play:,Ball:,Offense:,Defense:,Kickoff:,Down:,Distance:,LOS:,Passing Yards:,Incomplete:,Rushing Yards:,Kicking Yards:,Punting Yards:,Return Yards:,Sack:,FG:,TD:,Safety:,Interception:,Fumble:,Turnover:,Minor Injury:,Major Injury:,Injured Position:,Penalty:,Penalty Type:,Penalty Yards:,Was Accepted?:
+First Quarter:
+1,BA,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,NYC,Streaks,Cover 2,False,1,10,25,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,NYC,Draw,Cover 1 Mike Dog,False,2,10,25,0,False,6,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+4,NYC,Flood,Cover 2,False,3,4,31,22,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: False Start,-5,True
+5,NYC,Slants,Cover 0 Bullets,False,3,9,26,4,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+6,NYC,Punt,,False,4,5,30,0,False,0,0,45,11,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,BA,Option,Cover 4,False,1,10,36,0,False,12,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,BA,Sweep,Cover 1 Mike Dog,False,1,10,48,0,False,36,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,BA,Draw,Cover 0 Bullets,False,1,10,84,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,BA,Play Action,Cover 1 Mike Dog,False,2,10,84,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Pass Interference,-10,True
+11,BA,Sweep,Cover 1 Mike Dog,False,3,20,74,0,False,6,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,BA,Field Goal,,False,4,14,80,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+13,BA,Kickoff,,True,0,0,0,0,False,0,60,0,23,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,NYC,Option,Cover 2,False,1,10,28,0,False,10,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+15,NYC,Sweep,Cover 1 Mike Dog,False,1,10,38,0,False,10,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Holding,-10,True
+16,NYC,Slants,Cover 0 Bullets,False,1,20,28,18,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+17,NYC,Draw,Cover 0 Bullets,False,2,2,46,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Holding,-10,True
+18,NYC,Flood,Cover 2,False,2,12,36,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,NYC,Streaks,Cover 3,False,3,12,36,24,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Face Mask,15,False
+20,NYC,Slants,Cover 2,False,1,10,60,4,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,NYC,Flood,Cover 2,False,2,6,64,8,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,NYC,Scissors,Cover 2,False,1,10,72,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,NYC,Play Action,Cover 0 Bullets,False,2,10,72,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Pass Interference,15,True
+24,NYC,Scissors,Cover 0 Bullets,False,1,10,86,14,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+25,NYC,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+26,NYC,Kickoff,,True,0,0,0,0,False,0,60,0,19,False,False,False,False,False,False,False,False,False,,False,,0,False
+27,BA,Draw,Cover 0 Bullets,False,1,10,24,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,BA,Power,Cover 0 Bullets,False,2,7,27,0,False,-6,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Delay of Game,-5,True
+29,BA,Draw,Cover 1 Mike Dog,False,2,12,22,0,False,12,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+30,BA,Power,Cover 0 Bullets,False,1,10,34,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+31,BA,Option,Cover 0 Bullets,False,2,10,34,0,False,11,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,BA,Screen Pass,Cover 2,False,1,10,45,15,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,BA,Screen Pass,Cover 2,False,1,10,60,16,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,BA,Scissors,Cover 2,False,1,10,76,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,BA,Option,Cover 1 Mike Dog,False,2,10,76,0,False,16,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+ 
+Second Quarter:
+1,BA,Screen Pass,Cover 1 Mike Dog,False,1,10,92,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,BA,Play Action,Cover 0 Bullets,False,2,10,92,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,BA,Draw,Cover 0 Bullets,False,3,10,92,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Holding,-10,False
+4,BA,Field Goal,,False,4,7,95,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+5,BA,Kickoff,,True,0,0,0,0,False,0,60,0,12,False,False,False,False,False,True,False,False,False,,False,,0,False
+6,NYC,Scissors,Cover 1 Mike Dog,False,1,10,17,20,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,NYC,Blast,Cover 3,False,1,10,37,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,NYC,Screen Pass,Cover 0 Bullets,False,2,7,40,15,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,NYC,Slants,Cover 2,False,1,10,55,9,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,NYC,Flood,Cover 1 Mike Dog,False,2,1,64,15,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Illegal Use of Hands,5,False
+11,NYC,Draw,Cover 2,False,1,10,79,0,False,14,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,NYC,Flood,Cover 2,False,1,10,93,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Defense: Face Mask,15,True
+13,NYC,Flood,Cover 2,False,1,10,108,-8,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+14,NYC,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+15,NYC,Kickoff,,True,0,0,0,0,False,0,50,0,13,False,False,False,False,False,False,False,False,False,,False,,0,False
+16,BA,Play Action,Cover 1 Mike Dog,False,1,10,28,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+17,BA,Screen Pass,Cover 0 Bullets,False,2,10,28,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+18,BA,Screen Pass,Cover 1 Mike Dog,False,3,10,28,19,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,BA,Scissors,Cover 0 Bullets,False,1,10,47,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,BA,Streaks,Cover 0 Bullets,False,2,10,47,12,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,BA,Draw,Cover 0 Bullets,False,1,10,59,0,False,10,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,BA,Scissors,Cover 0 Bullets,False,1,10,69,19,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,BA,Option,Cover 1 Mike Dog,False,1,10,88,0,False,8,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+24,BA,Draw,Cover 2,False,2,2,96,0,False,4,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+25,BA,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+26,BA,Kickoff,,True,0,0,0,0,False,0,60,0,13,False,False,False,False,False,True,False,False,False,,False,,0,False
+27,NYC,Slants,Cover 0 Bullets,False,1,10,18,8,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,NYC,Play Action,Cover 1 Mike Dog,False,2,2,26,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,NYC,Blast,Cover 0 Bullets,False,3,2,26,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+30,NYC,Flood,Cover 2,False,1,10,29,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+31,NYC,Power,Cover 0 Bullets,False,1,10,39,0,False,9,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,NYC,Option,Cover 2,False,2,1,48,0,False,14,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,NYC,Screen Pass,Cover 1 Mike Dog,False,1,10,62,16,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,NYC,Option,Cover 0 Bullets,False,1,10,78,0,False,17,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,NYC,Flood,Cover 2,False,1,10,95,5,False,0,0,0,0,False,False,True,False,False,False,False,True,False,,False,,0,False
+36,NYC,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+ 
+Halftime:
+ 
+Third Quarter:
+1,NYC,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,BA,Draw,Cover 0 Bullets,False,1,10,25,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,BA,Scissors,Cover 1 Mike Dog,False,2,7,28,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+4,BA,Streaks,Cover 0 Bullets,False,3,7,28,31,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,True,Offense: Delay of Game,-5,True
+5,BA,Play Action,Cover 0 Bullets,False,3,12,23,20,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+6,BA,Play Action,Cover 1 Mike Dog,False,1,10,43,28,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,BA,Option,Cover 0 Bullets,False,1,10,71,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,BA,Sweep,Cover 4,False,2,10,71,0,False,12,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,BA,Screen Pass,Cover 0 Bullets,False,1,10,83,17,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+10,BA,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+11,BA,Kickoff,,True,0,0,0,0,False,0,60,0,26,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,NYC,Blast,Cover 1 Mike Dog,False,1,10,31,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,NYC,Blast,Cover 0 Bullets,False,2,8,33,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+14,NYC,Power,Cover 1 Mike Dog,False,3,8,33,0,False,12,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+15,NYC,Draw,Cover 2,False,1,10,45,0,False,11,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+16,NYC,Flood,Cover 0 Bullets,False,1,10,56,9,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+17,NYC,Slants,Cover 0 Bullets,False,2,1,65,6,False,0,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+18,NYC,Streaks,Cover 0 Bullets,False,1,10,71,23,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,NYC,Flood,Cover 0 Bullets,False,1,10,94,-2,False,0,0,0,0,True,False,False,False,False,False,False,False,False,,False,,0,False
+20,NYC,Blast,Cover 1 Mike Dog,False,2,12,92,0,False,1,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,NYC,Blast,Cover 2,False,3,11,93,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,NYC,Field Goal,,False,4,9,95,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+23,NYC,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+24,BA,Draw,Cover 1 Mike Dog,False,1,10,25,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,BA,Scissors,Cover 0 Bullets,False,2,10,25,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+26,BA,Scissors,Cover 2,False,3,10,25,13,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+27,BA,Screen Pass,Cover 0 Bullets,False,1,10,38,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,BA,Streaks,Cover 0 Bullets,False,2,10,38,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,BA,Blast,Cover 2,False,3,10,38,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+30,BA,Punt,,False,4,8,40,0,False,0,0,55,0,False,False,False,False,False,True,False,False,False,,False,,0,False
+31,NYC,Draw,Cover 1 Mike Dog,False,1,10,5,0,False,11,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,NYC,Slants,Cover 1 Mike Dog,False,1,10,16,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,NYC,Option,Cover 3,False,2,3,23,0,False,-4,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,NYC,Blast,Cover 3,False,3,7,19,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,NYC,Punt,,False,4,4,22,0,False,0,0,50,0,False,False,False,False,False,True,True,False,False,,False,,0,False
+ 
+Fourth Quarter:
+1,BA,Draw,Cover 0 Bullets,False,1,10,72,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+2,BA,Scissors,Cover 0 Bullets,False,2,7,75,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+3,BA,Play Action,Cover 1 Mike Dog,False,3,7,75,0,True,0,0,0,0,False,False,False,False,False,False,False,True,False,,False,,0,False
+4,BA,Field Goal,,False,4,7,75,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+5,BA,Kickoff,,True,0,0,0,0,False,0,65,0,25,False,False,False,False,False,False,False,False,False,,False,,0,False
+6,NYC,Draw,Cover 2,False,1,10,25,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+7,NYC,Screen Pass,Cover 1 Mike Dog,False,2,10,25,27,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+8,NYC,Option,Cover 0 Bullets,False,1,10,52,0,False,15,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+9,NYC,Power,Cover 2,False,1,10,67,0,False,2,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+10,NYC,Power,Cover 0 Bullets,False,2,8,69,0,False,6,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+11,NYC,Flood,Cover 1 Mike Dog,False,3,2,75,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+12,NYC,Slants,Cover 1 Mike Dog,False,1,10,85,10,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+13,NYC,Screen Pass,Cover 2,False,1,10,95,5,False,0,0,0,0,False,False,True,False,False,False,False,False,False,,False,,0,False
+14,NYC,Field Goal,,False,0,0,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+15,NYC,Kickoff,,True,0,0,0,0,False,0,60,0,15,False,False,False,False,False,False,False,False,False,,False,,0,False
+16,BA,Power,Cover 0 Bullets,False,1,10,20,0,False,14,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+17,BA,Play Action,Cover 1 Mike Dog,False,1,10,34,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+18,BA,Scissors,Cover 0 Bullets,False,2,10,34,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+19,BA,Scissors,Cover 0 Bullets,False,3,10,34,42,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+20,BA,Option,Cover 4,False,1,10,76,0,False,9,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+21,BA,Streaks,Cover 2,False,2,1,85,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+22,BA,Play Action,Cover 2,False,3,1,85,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+23,BA,Field Goal,,False,4,1,85,0,False,0,0,0,0,False,True,False,False,False,False,False,False,False,,False,,0,False
+24,BA,Kickoff,,True,0,0,0,0,False,0,55,0,19,False,False,False,False,False,False,False,False,False,,False,,0,False
+25,NYC,Blast,Cover 0 Bullets,False,1,10,29,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+26,NYC,Play Action,Cover 1 Mike Dog,False,2,7,32,-5,False,0,0,0,0,True,False,False,False,False,False,False,False,False,,False,,0,False
+27,NYC,Draw,Cover 0 Bullets,False,3,12,27,0,False,3,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+28,NYC,Punt,,False,4,9,30,0,False,0,0,65,10,False,False,False,False,False,False,False,False,False,,False,,0,False
+29,BA,Play Action,Cover 2,False,1,10,15,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+30,BA,Scissors,Cover 2,False,2,10,15,0,True,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+31,BA,Power,Cover 1 Mike Dog,False,3,10,15,0,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+32,BA,Punt,,False,4,10,15,0,False,0,0,45,10,False,False,False,False,False,False,False,False,False,,False,,0,False
+33,NYC,Flood,Cover 0 Bullets,False,1,10,50,7,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+34,NYC,Blast,Cover 1 Mike Dog,False,2,3,57,0,False,1,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
+35,NYC,Flood,Cover 2,False,3,2,58,13,False,0,0,0,0,False,False,False,False,False,False,False,False,False,,False,,0,False
